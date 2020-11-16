@@ -1,0 +1,5 @@
+export const CONFIG = {
+  WORK_MONTHS_PER_YEAR: 12,
+  WORK_DAYS_PER_MONTH: 21,
+  WORK_HOURS_PER_DAY: 8,
+};

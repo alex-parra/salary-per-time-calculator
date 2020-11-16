@@ -1,0 +1,24 @@
+.settings {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 -5px;
+  margin-top: 60px;
+  padding: 10px 5px;
+  font-size: 16px;
+  background-color: rgba(#000, 0.1);
+  border-radius: 5px;
+  position: relative;
+
+  h5 {
+    position: absolute;
+    left: 10px;
+    bottom: 100%;
+    margin: 0 0 0.2em;
+  }
+
+  > .field {
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+  }
+}
