@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/salary-per-time-calculator/static/css/main.850c43e1.chunk.css",
-    "main.js": "/salary-per-time-calculator/static/js/main.4dd03ff8.chunk.js",
-    "main.js.map": "/salary-per-time-calculator/static/js/main.4dd03ff8.chunk.js.map",
-    "runtime-main.js": "/salary-per-time-calculator/static/js/runtime-main.94f5e967.js",
-    "runtime-main.js.map": "/salary-per-time-calculator/static/js/runtime-main.94f5e967.js.map",
-    "static/js/2.db3a54ad.chunk.js": "/salary-per-time-calculator/static/js/2.db3a54ad.chunk.js",
-    "static/js/2.db3a54ad.chunk.js.map": "/salary-per-time-calculator/static/js/2.db3a54ad.chunk.js.map",
-    "static/js/3.0a420e66.chunk.js": "/salary-per-time-calculator/static/js/3.0a420e66.chunk.js",
-    "static/js/3.0a420e66.chunk.js.map": "/salary-per-time-calculator/static/js/3.0a420e66.chunk.js.map",
+    "main.css": "/salary-per-time-calculator/static/css/main.f8eec78e.chunk.css",
+    "main.js": "/salary-per-time-calculator/static/js/main.b8337e27.chunk.js",
+    "main.js.map": "/salary-per-time-calculator/static/js/main.b8337e27.chunk.js.map",
+    "runtime-main.js": "/salary-per-time-calculator/static/js/runtime-main.b22eaccf.js",
+    "runtime-main.js.map": "/salary-per-time-calculator/static/js/runtime-main.b22eaccf.js.map",
+    "static/js/2.d66aa743.chunk.js": "/salary-per-time-calculator/static/js/2.d66aa743.chunk.js",
+    "static/js/2.d66aa743.chunk.js.map": "/salary-per-time-calculator/static/js/2.d66aa743.chunk.js.map",
+    "static/js/3.313e213a.chunk.js": "/salary-per-time-calculator/static/js/3.313e213a.chunk.js",
+    "static/js/3.313e213a.chunk.js.map": "/salary-per-time-calculator/static/js/3.313e213a.chunk.js.map",
     "index.html": "/salary-per-time-calculator/index.html",
-    "static/css/main.850c43e1.chunk.css.map": "/salary-per-time-calculator/static/css/main.850c43e1.chunk.css.map",
-    "static/js/2.db3a54ad.chunk.js.LICENSE.txt": "/salary-per-time-calculator/static/js/2.db3a54ad.chunk.js.LICENSE.txt"
+    "static/css/main.f8eec78e.chunk.css.map": "/salary-per-time-calculator/static/css/main.f8eec78e.chunk.css.map",
+    "static/js/2.d66aa743.chunk.js.LICENSE.txt": "/salary-per-time-calculator/static/js/2.d66aa743.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.94f5e967.js",
-    "static/js/2.db3a54ad.chunk.js",
-    "static/css/main.850c43e1.chunk.css",
-    "static/js/main.4dd03ff8.chunk.js"
+    "static/js/runtime-main.b22eaccf.js",
+    "static/js/2.d66aa743.chunk.js",
+    "static/css/main.f8eec78e.chunk.css",
+    "static/js/main.b8337e27.chunk.js"
   ]
 }
