@@ -21,9 +21,9 @@ const AmountsComp = (props) => {
 
   return (
     <div className="amounts">
-      <h4>
+      <h2>
         <img src={currencyFlag[currency]} width="30px" height="20px" alt={currency} />
-      </h4>
+      </h2>
       <Field label="per Year" value={perYear} currency={currency} onChange={setAmounts.year} />
       <Field label="per Month" value={m} currency={currency} onChange={setAmounts.month} />
       <Field label="per Day" value={d} currency={currency} onChange={setAmounts.day} />
