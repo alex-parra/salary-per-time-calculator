@@ -3,6 +3,6 @@ import { App } from './App';
 
 test('renders title', () => {
   render(<App />);
-  const title = screen.getByText(/App/i);
+  const title = screen.getByText('Salary per Time Calculator');
   expect(title).toBeInTheDocument();
 });
