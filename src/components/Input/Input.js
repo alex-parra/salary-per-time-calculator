@@ -9,7 +9,7 @@ const ops = {
   ArrowDown: (v, inc = 1) => v - inc,
 };
 
-export const Input = ({ value, precision = 0, currency = 'EUR', onChange = noop }) => {
+export const Input = ({ value, precision = 0, currency = 'EUR', label = '', onChange = noop }) => {
   const _onChange = (v) => {
     onChange(v || value);
   };
@@ -39,6 +39,7 @@ export const Input = ({ value, precision = 0, currency = 'EUR', onChange = noop 
         fixedDecimalLength={precision}
         onChange={_onChange}
         onKeyDown={onKeyDown}
+        aria-label={label}
       />
     </div>
   );
