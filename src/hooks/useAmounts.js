@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 
 import { amounts, noop } from '../helpers';
 
@@ -11,23 +11,21 @@ export const useAmounts = (opts) => {
   const [perDay, setPerDay] = useState(a.monthToDay(perMonth));
   const [perHour, setPerHour] = useState(a.dayToHour(perDay));
 
-  const setters = useMemo(() => {
-    return {
-      year: (perYear) => {
-        setPerMonth(a.yearToMonth(perYear));
-        setPerDay(a.yearToDay(perYear));
-        setPerHour(a.yearToHour(perYear));
-        callback(perYear);
-      },
-      month: (perMonth) => setters.year(a.monthToYear(perMonth)),
-      day: (perDay) => setters.year(a.dayToYear(perDay)),
-      hour: (perHour) => setters.year(a.hourToYear(perHour)),
-    };
-  }, [a, callback]);
+  const setters = {
+    year: (perYear) => {
+      setPerMonth(a.yearToMonth(perYear));
+      setPerDay(a.yearToDay(perYear));
+      setPerHour(a.yearToHour(perYear));
+      callback(perYear);
+    },
+    month: (perMonth) => setters.year(a.monthToYear(perMonth)),
+    day: (perDay) => setters.year(a.dayToYear(perDay)),
+    hour: (perHour) => setters.year(a.hourToYear(perHour)),
+  };
 
   useEffect(() => {
     setters.year(perYear);
-  }, [perYear, yearMonths, monthDays, dayHours, setters]);
+  }, [perYear, yearMonths, monthDays, dayHours]);
 
   return [perMonth, perDay, perHour, setters];
 };
