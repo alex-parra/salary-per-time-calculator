@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 
+import './Amounts.scss';
 import { Field } from '../Field';
 import { useAmounts } from '../../hooks/useAmounts';
 import { noop, currencyFlag } from '../../helpers';

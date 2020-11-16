@@ -21,7 +21,9 @@ export const App = () => {
 
   return (
     <div className="App">
-      <h1>Salary per Time Calculator</h1>
+      <h1>
+        Salary <small>per Time &amp; Currency</small> Calculator
+      </h1>
 
       <div className="amountsWrap">
         {Object.keys(xrates.EUR).map((c) => (

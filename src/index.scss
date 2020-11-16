@@ -7,6 +7,21 @@
   line-height: inherit;
 }
 
+@keyframes cycleBg {
+  0% {
+    background: #00509d;
+  }
+  33% {
+    background: #34623f;
+  }
+  66% {
+    background: #283845;
+  }
+  100% {
+    background: #db3a34;
+  }
+}
+
 html {
   min-height: 100vh;
   font-size: 16px;
@@ -16,6 +31,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeSpeed;
   scroll-behavior: smooth;
+  background-color: #00509d;
+  animation: cycleBg 50s ease 0s infinite alternate;
 }
 
 body {

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './Field.scss';
 import { Input } from '../Input';
 
 export const Field = ({ label, value, precision = 0, currency = 'USD', onChange }) => {
