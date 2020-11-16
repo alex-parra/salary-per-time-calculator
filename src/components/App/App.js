@@ -22,7 +22,7 @@ export const App = () => {
   return (
     <div className="App">
       <h1>
-        Salary <small>per Time &amp; Currency</small> Calculator
+        Salary Calculator <small>per Time &amp; Currency</small>
       </h1>
 
       <div className="amountsWrap">
