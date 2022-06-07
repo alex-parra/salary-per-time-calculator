@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/salary-per-time-calculator/static/css/main.d76e917b.chunk.css",
-    "main.js": "/salary-per-time-calculator/static/js/main.15f9bf26.chunk.js",
-    "main.js.map": "/salary-per-time-calculator/static/js/main.15f9bf26.chunk.js.map",
+    "main.js": "/salary-per-time-calculator/static/js/main.26aec648.chunk.js",
+    "main.js.map": "/salary-per-time-calculator/static/js/main.26aec648.chunk.js.map",
     "runtime-main.js": "/salary-per-time-calculator/static/js/runtime-main.b22eaccf.js",
     "runtime-main.js.map": "/salary-per-time-calculator/static/js/runtime-main.b22eaccf.js.map",
     "static/js/2.d66aa743.chunk.js": "/salary-per-time-calculator/static/js/2.d66aa743.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b22eaccf.js",
     "static/js/2.d66aa743.chunk.js",
     "static/css/main.d76e917b.chunk.css",
-    "static/js/main.15f9bf26.chunk.js"
+    "static/js/main.26aec648.chunk.js"
   ]
 }
